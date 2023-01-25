@@ -13,15 +13,15 @@ const Home: NextPage = () => {
           <div className="text-4xl mb-2 flex justify-between items-baseline">
             <h1>João Pedro <strong>Arouca</strong></h1>
             <Link href="/blog" passHref>
-              <p className="mx-2 px-1 pt-1 border-b-2 border-main font-bold font-mono focus:outline-none focus:ring-4 focus:ring-main focus:ring-opacity-50 focus:border-transparent hover:bg-main text-sm">Repo</p>
+              <p className="mx-2 px-1 pt-1 border-b-2 border-purple-800 font-bold font-mono focus:outline-none focus:ring-4 focus:ring-purple-800 focus:ring-opacity-50 focus:border-transparent hover:bg-purple-800 text-sm">Repo</p>
             </Link>
             <Link href="/blog" passHref>
-              <p className="mx-2 px-1 pt-1 border-b-2 border-main font-bold font-mono focus:outline-none focus:ring-4 focus:ring-main focus:ring-opacity-50 focus:border-transparent hover:bg-main text-sm">Blog</p>
+              <p className="mx-2 px-1 pt-1 border-b-2 border-purple-800 font-bold font-mono focus:outline-none focus:ring-4 focus:ring-purple-800 focus:ring-opacity-50 focus:border-transparent hover:bg-purple-800 text-sm">Blog</p>
             </Link>
           </div>
 
           <p className="opacity-90 sm:max-w-md">
-            <a href="https://www.linkedin.com/in/jparouca/" className="border-orange-900 font-bold font-mono focus:outline-none focus:ring-4 focus:ring-orange-900 focus:ring-opacity-50 focus:border-transparent hover:bg-amber-900 ">
+            <a href="https://www.linkedin.com/in/jparouca/" className="font-bold font-mono focus:outline-none focus:ring-4 focus:ring-opacity-50 focus:border-transparent hover:bg-purple-800 ">
               🏛 Fullstack developer at {" "}
               <span className="font-mono">Accenture 🏛.</span>
             </a>
@@ -34,16 +34,16 @@ const Home: NextPage = () => {
         </div>
 
         <footer className="flex items-center flex-wrap space-x-4 justify-center sm:mx-auto mb-8">
-          <Link target="_blank" rel="noopener noreferrer" href="https://twitter.com/kaxo_ta" className="mx-2 px-1 pt-1 border-b-2 border-main font-bold font-mono focus:outline-none focus:ring-4 focus:ring-main focus:ring-opacity-50 focus:border-transparent hover:bg-main ">
+          <Link target="_blank" rel="noopener noreferrer" href="https://twitter.com/kaxo_ta" className="mx-2 px-1 pt-1 border-b-2 border-purple-800 font-bold font-mono focus:outline-none focus:ring-4 focus:ring-purple-800 focus:ring-opacity-50 focus:border-transparent hover:ring-purple-800 ">
             Twitter 🐦
           </Link>
           <Divider />
           <Link
-            target="_blank" rel="noopener noreferrer" href="https://github.com/jparouca" className="mx-2 px-1 pt-1 border-b-2 border-main font-bold font-mono focus:outline-none focus:ring-4 focus:ring-main focus:ring-opacity-50 focus:border-transparent hover:bg-main ">
+            target="_blank" rel="noopener noreferrer" href="https://github.com/jparouca" className="mx-2 px-1 pt-1 border-b-2 border-purple-800 font-bold font-mono focus:outline-none focus:ring-4 focus:ring-purple-800 focus:ring-opacity-50 focus:border-transparent hover:ring-purple-800 ">
             GitHub ‍💻
           </Link>
           <Divider />
-          <Link target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jparouca" className="mx-2 px-1 pt-1 border-b-2 border-main font-bold font-mono focus:outline-none focus:ring-4 focus:ring-main focus:ring-opacity-50 focus:border-transparent hover:accent-orange-900 ">
+          <Link target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jparouca" className="mx-2 px-1 pt-1 border-b-2 border-purple-800 font-bold font-mono focus:outline-none focus:ring-4 focus:ring-purple-800 focus:ring-opacity-50 focus:border-transparent hover:ring-purple-800 ">
            Linkedin 📫
           </Link>
         </footer>
