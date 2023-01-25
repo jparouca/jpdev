@@ -2,6 +2,8 @@ import { type NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
 import Image from 'next/image'
+
+import pfp2 from '../assets/pfp2.jpg'
 const Home: NextPage = () => {
   return (
     <>
@@ -75,7 +77,7 @@ function Me() {
           filter grayscale contrast-150 brightness-75 hover:grayscale-0 hover:contrast-100 hover:brightness-100
 
           "
-          src="../assets/pfp2.jpg"
+          src={pfp2}
           width="240"
           height="240"
           alt="A selfie"
