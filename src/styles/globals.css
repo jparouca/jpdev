@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: #af3a03;
+}
+
+::selection {
+    background-color: var(--primary-color);
+}
+
+html {
+    scroll-behavior: smooth;
+    background: #000;
+    color: #fff !important;
+    font-family: Inter, sans-serif;
+}
+
+pre::-webkit-scrollbar {
+    display: none;
+}
+
+#__next {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
