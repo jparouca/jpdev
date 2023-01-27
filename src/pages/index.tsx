@@ -43,7 +43,7 @@ const Home: NextPage = () => {
             GitHub ‍💻
           </Link>
           <Divider />
-          <Link target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jparouca" className="mx-2 px-1 pt-1 border-b-2 border-purple-800 font-bold font-mono focus:outline-none focus:ring-4 focus:ring-purple-800 focus:ring-opacity-50 focus:border-transparent hover:ring-purple-800 ">
+          <Link target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jparouca" className="mx-2 px-1 pt-1 border-b-2 border-purple-800 font-bold font-mono focus:outline-none focus:ring-4 focus:ring-purple-800 focus:ring-opacity-50 focus:border-transparent hover:accent-purple-800 ">
            Linkedin 📫
           </Link>
         </footer>
